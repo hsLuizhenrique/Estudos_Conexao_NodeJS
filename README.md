@@ -1,15 +1,40 @@
+# Projeto de API para Sistema de Bibliotecas
 
+Este projeto consiste na implementação de uma API para gerenciar um sistema de bibliotecas, baseado nos exercícios do curso da @cubosacademy.
 
-#Projeto de uma Api para um sistema de bibliotecas, baseado nos exercicios do meu curso da @cubosacademy
+## Funcionalidades Implementadas
 
-## Exercícios de classe 🏫
+### Exercícios de Classe 🏫
 
-1 - Implementação de Api para sistemas de Biblioteca.
-2 - Implemente na API a funcionalidade de cadastrar um autor no banco de dados .
-3 - Implemente a funcionalidade de buscar um autor no banco de dados através do seu identificador único.
-4 - Implemente uma tabela chamada `livros`.
-5 - Implemente a funcionalidade de cadastrar um livro para um autor no banco de dados
-6 - O endpoint de buscar um autor deverá ser alterado para quando detalhar o autor, trazer a lista de seus livros cadastrados.
-7 - Implemente a funcionalidade de listar os livros cadastrados no banco de dados, com as informações do seu autor.
+1. **Implementação da API para sistemas de Biblioteca**:
+   - Criação da estrutura básica da API.
+   
+2. **Cadastro de Autor**:
+   - Implementação da funcionalidade de cadastrar um autor no banco de dados.
+   
+3. **Busca de Autor**:
+   - Implementação da funcionalidade de buscar um autor no banco de dados através do seu identificador único.
+   
+4. **Tabela de Livros**:
+   - Criação de uma tabela chamada `livros` no banco de dados.
+   
+5. **Cadastro de Livro**:
+   - Implementação da funcionalidade de cadastrar um livro para um autor no banco de dados.
+   
+6. **Listagem de Livros por Autor**:
+   - Alteração do endpoint de busca de autor para incluir a lista de livros cadastrados do autor.
+   
+7. **Listagem de Livros**:
+   - Implementação da funcionalidade de listar os livros cadastrados no banco de dados, incluindo informações sobre seus respectivos autores.
 
-###### tags: `exercícios` `lógica` `banco de dados` `sql` `postgres`
+## Tecnologias Utilizadas
+
+- **Linguagem**: JavaScript/Node.js
+- **Banco de Dados**: PostgreSQL
+- **Framework**: Express
+
+## Como Executar o Projeto
+
+1. Clone o repositório para sua máquina local.
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
